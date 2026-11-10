@@ -10,3 +10,33 @@
 
 .quick-facts{margin:26px 0 4px;padding:20px 22px;border:1px solid var(--line);background:rgba(23,24,23,.06)}.quick-facts-title{font:500 .62rem 'DM Mono';color:#344433!important;text-transform:uppercase;letter-spacing:.12em;margin:0 0 10px!important}.quick-facts ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 20px;margin:0;padding-left:18px;color:#344433;font-size:.78rem}.skills{padding-top:20px}.skills-list{display:flex;flex-wrap:wrap;gap:10px}.skills-list span{border:1px solid var(--line);padding:11px 15px;color:var(--ink);font:500 .68rem 'DM Mono';background:var(--surface)}
 @media(max-width:760px){.quick-facts ul{grid-template-columns:1fr}.about-copy h2{font-size:clamp(2rem,9vw,3.3rem)}}
+
+/* Selected work list & NaijaBrain showcase card */
+.work-list{display:grid;gap:28px}
+.project-visual-naijabrain{background:#0b1220;color:#f8fafc}
+.project-visual-naijabrain .browser-bar{border-bottom-color:rgba(248,250,252,.14)}
+.project-visual-naijabrain .browser-bar span{border-color:#536687}
+.project-visual-naijabrain .browser-bar small{color:#94a3b8}
+.naijabrain-screen{background:#121c2f;color:#f8fafc;border:1px solid #24344f;box-shadow:0 20px 36px rgba(3,8,18,.45)}
+.naijabrain-screen .screen-top span{color:#b8c6db}
+.naijabrain-screen-main{height:270px;display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:24px}
+.naijabrain-copy small{display:block;font:500 .52rem 'DM Mono',monospace;letter-spacing:.11em;color:#a3ff12;margin-bottom:10px}
+.naijabrain-copy p{font-size:clamp(1.75rem,3.8vw,3.3rem);line-height:.95;letter-spacing:-.07em;font-weight:800;margin:0}
+.naijabrain-copy em{color:#a3ff12;font-style:normal}
+.naijabrain-preview-card{padding:16px;border:1px solid #2a3b58;border-radius:12px;background:#0b1220;display:grid;gap:12px}
+.naijabrain-preview-meta{display:flex;justify-content:space-between;gap:8px;font:500 .5rem 'DM Mono',monospace;color:#a3ff12;letter-spacing:.08em}
+.naijabrain-preview-bars{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.naijabrain-preview-bars span{height:28px;border-radius:6px;border:1px solid #2a3b58;background:#162238}
+.naijabrain-preview-bars span.is-active{border-color:#a3ff12;background:rgba(163,255,18,.16)}
+.naijabrain-screen .screen-bottom{border-top-color:#24344f;color:#94a3b8}
+.naijabrain-screen .screen-bottom span{color:#a3ff12}
+.project-features{display:flex;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:14px 0 0;max-width:580px}
+.project-features li{border:1px solid var(--line);background:var(--surface-2);color:var(--ink);padding:5px 10px;font:500 .62rem 'DM Mono',monospace;border-radius:100px}
+.project-status{display:inline-flex;align-items:center;gap:6px;flex-shrink:0;border:1px solid var(--line);border-radius:100px;padding:13px 18px;font:500 .68rem 'DM Mono',monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--ink);white-space:nowrap}
+.project-status .status-dot{margin-right:2px}
+@media(max-width:760px){
+  .naijabrain-screen-main{height:185px;grid-template-columns:1fr;align-content:center;gap:12px}
+  .naijabrain-preview-card{display:none}
+  .naijabrain-screen .screen-top span{display:none}
+  .project-info .project-status{margin-top:20px}
+}

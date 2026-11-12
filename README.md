@@ -6,7 +6,7 @@ A responsive freelance frontend developer portfolio built with semantic HTML, CS
 
 - Services, selected work, certifications, About, skills, and contact sections
 - Responsive navigation and reveal animations
-- Links to the Veyra Fashion Catalogue demo, NaijaBrain project showcase (in development), and verified contact/GitHub destinations
+- Links to the Veyra Fashion Catalogue demo, NaijaBrain maths & logic game live demo, and verified contact/GitHub destinations
 
 ## Run locally
 
